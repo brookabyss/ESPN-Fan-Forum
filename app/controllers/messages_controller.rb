@@ -1,5 +1,5 @@
 class MessagesController < ApplicationController
-    before_action :find_message, only: [:show,:edit, :update, :destroy]
+    before_action :find_message, only: [:show, :edit, :update, :destroy]
     
     
     def index
